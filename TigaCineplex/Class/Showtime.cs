@@ -133,7 +133,7 @@ namespace TigaCineplex.Class
                 cmd.Parameters.AddWithValue("@v3", enddate);
                 cmd.Parameters.AddWithValue("@v4", time);
                 cmd.Parameters.AddWithValue("@v5", hallnumber);
-                cmd.Parameters.AddWithValue("@v7", id);
+                cmd.Parameters.AddWithValue("@v6", id);
                 //execute
                 if (cmd.ExecuteNonQuery() > 0)
                 {
